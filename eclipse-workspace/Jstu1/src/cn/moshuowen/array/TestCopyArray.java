@@ -3,12 +3,17 @@ package cn.moshuowen.array;
 import java.util.Arrays;
 
 /**
- * ²âÊÔÊı×é¿½±´
+ * æµ‹è¯•æ‹·è´æ•°ç»„
  * @author moshuuowen	 
  *
  */
 public class TestCopyArray {
 	public static void main(String[] args) {
+		
+		
+		
+	}
+	public static void testBasicCopy() {
 		String str1[] = {"aa","bb","cc","dd","cc"};
 		String str2[] = new String[10];
 		System.arraycopy(str1, 2, str2, 6, 3);

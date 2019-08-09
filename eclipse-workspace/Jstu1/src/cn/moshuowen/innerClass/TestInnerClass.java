@@ -1,6 +1,6 @@
 package cn.moshuowen.innerClass;
 /***
- * 测试非静态内部类
+ * 锟斤拷锟皆非撅拷态锟节诧拷锟斤拷
  * @author moshuowen
  *
  */
@@ -8,7 +8,7 @@ package cn.moshuowen.innerClass;
 public class TestInnerClass {
 
 	public static void main(String[] args) {
-	//创建内部类对象
+	//瀹炰緥鍖栭潪闈欐�佸唴閮ㄧ被
 		Outer.Inner inner = new Outer().new Inner();
 		inner.show();
 	}
@@ -27,9 +27,9 @@ class Outer{
 		int age =20;
 		public void show() {	
 			int age = 30;
-			System.out.println("外部类的成员变量age:" + Outer.this.age);
-			System.out.println("内部类的局部变量age:" + this.age);
-			System.out.println("局部变量age:" + age);
+			System.out.println("澶栭儴绫荤殑鎴愬憳鍙橀噺age:" + Outer.this.age);
+			System.out.println("鍐呴儴绫荤殑鎴愬憳鍙橀噺age:" + this.age);
+			System.out.println("灞�閮╝ge:" + age);
 		}
 	}
 }
